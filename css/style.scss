@@ -1,0 +1,97 @@
+body{
+    font-size: .12rem;
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: .45rem;
+    background: #393A3F;
+    color:#fff;
+    padding: 0 .15rem;
+    position: relative;
+    text-align: left;
+    line-height: .45rem;
+    .header-left{
+        position: absolute;
+        top:0;
+        left: .15rem;
+        font-size: .2rem;
+    }
+    .header-right{
+        position: absolute;
+        top: -.1rem;
+        right: .15rem;
+        font-size: .4rem;
+    }
+    .header-center{
+        text-indent: .2rem;
+        h1{
+            font-size: .18rem;
+            font-weight: normal;
+        }
+    }
+}
+.section{
+    flex: 1;
+    background: #818D9B;
+    position: relative;
+    .content{
+        width: 90%;
+        height: 80%;
+        margin: 50px auto;
+        background: #fff;
+        border-radius: .1rem;
+        text-align: center;
+        .content-top{
+            padding-top: .5rem;
+            img{
+                width: 30%;
+                height: auto;
+            }
+            p{
+                font-size: .16rem;
+                line-height: .3rem;
+            }
+        }
+        .content-center{
+            margin-top: .5rem;
+            p{
+                position: relative;
+                img{
+                    position: absolute;
+                    top: .1rem;
+                    left: 0;
+                    width: .2rem;
+                    height: auto;
+                }
+                margin: 0 auto;
+                width: 80%;
+                border-bottom: 1px solid #ccc;
+                line-height: .5rem;
+                input{
+                    display: inline-block;
+                    width: 80%;
+                    height: .4rem;
+                    border:none;
+                    padding-left: .1rem;
+                }
+            }
+        }
+        .content-bottom{
+                 padding-top: .5rem;
+            button{
+                width: 80%;
+                height: .4rem;
+                color:#fff;
+                background: #2ABE72;
+                border-radius:.1rem;
+                border:none;
+            }
+           
+        }
+    }
+}

@@ -1,0 +1,83 @@
+body {
+  font-size: .12rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  height: .45rem;
+  background: #393A3F;
+  color: #fff;
+  padding: 0 .15rem;
+  position: relative;
+  text-align: left;
+  line-height: .45rem; }
+  .header .header-left {
+    position: absolute;
+    top: 0;
+    left: .15rem;
+    font-size: .2rem; }
+  .header .header-right {
+    position: absolute;
+    top: -.1rem;
+    right: .15rem;
+    font-size: .4rem; }
+  .header .header-center {
+    text-indent: .2rem; }
+    .header .header-center h1 {
+      font-size: .18rem;
+      font-weight: normal; }
+
+.section {
+  flex: 1;
+  background: #818D9B;
+  position: relative; }
+  .section .content {
+    width: 90%;
+    height: 80%;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: .1rem;
+    text-align: center; }
+    .section .content .content-top {
+      padding-top: .5rem; }
+      .section .content .content-top img {
+        width: 30%;
+        height: auto; }
+      .section .content .content-top p {
+        font-size: .16rem;
+        line-height: .3rem; }
+    .section .content .content-center {
+      margin-top: .5rem; }
+      .section .content .content-center p {
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        border-bottom: 1px solid #ccc;
+        line-height: .5rem; }
+        .section .content .content-center p img {
+          position: absolute;
+          top: .1rem;
+          left: 0;
+          width: .2rem;
+          height: auto; }
+        .section .content .content-center p input {
+          display: inline-block;
+          width: 80%;
+          height: .4rem;
+          border: none;
+          padding-left: .1rem; }
+    .section .content .content-bottom {
+      padding-top: .5rem; }
+      .section .content .content-bottom button {
+        width: 80%;
+        height: .4rem;
+        color: #fff;
+        background: #2ABE72;
+        border-radius: .1rem;
+        border: none; }
+
+/*# sourceMappingURL=style.css.map */
